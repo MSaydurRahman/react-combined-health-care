@@ -6,7 +6,7 @@ const Footer = () => {
         <div className=" footer">
             <div className="container footer-text text-center">
                 <div className="text-white">
-                    <h2 className="text-primary">Reports</h2>
+                    <h2 className="text-primary">Languages</h2>
                     <p>English</p>
                     <p>Hindi</p>
                     <p>Bangla</p>
@@ -33,7 +33,7 @@ const Footer = () => {
                     <p><Link to="/" className="fa fa-printerest"></Link></p>
                 </div>
             </div>
-            <h6 className="text-white text-center p-4">Copyright 1999-2021 by Refsnes Data. All Rights Reserved.</h6>
+            <h6 className="text-white text-center p-4">© Copyright 1999-2021 by Refsnes Data. All Rights Reserved.</h6>
         </div>
     );
 };

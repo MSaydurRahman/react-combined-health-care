@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className="nav container">
                 <Link to="/home">Home</Link>
                 <Link to="/services">Conditions and Diseases</Link>
-                <Link to="/treatment">Treatments, Tests and Therapies</Link>
+                <Link to="/treatment">Treatments Tests and Therapies</Link>
                 <Link to="/about">About</Link>
                 <span className="text-white mx-2"> {user.displayName} </span>
                 {user.email ?
