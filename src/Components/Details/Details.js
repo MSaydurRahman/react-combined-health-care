@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router';
+import { useParams } from 'react-router-dom';
 import "./Details.css"
 const Details = () => {
     const { id } = useParams();
@@ -12,13 +12,13 @@ const Details = () => {
             .then(data => setDetails(data))
     }, []);
 
-
+    console.log(details)
     const singleDetails = details.find(detail => detail.id == id)
-
+    console.log(singleDetails)
 
     return (
         <div className="details">
-            <div className="container text-center text-white">
+            <div className="container text-center text-danger">
                 <h1>Service:{id}</h1>
                 <br />
                 <h2>{singleDetails?.name}</h2>
