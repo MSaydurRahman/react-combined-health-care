@@ -11,7 +11,7 @@ const Home = () => {
             .then(data => setAreas(data))
     }, [])
     return (
-        <div className="container home">
+        <div className="container home p-2">
             <About></About>
             <div className="row">
                 {
