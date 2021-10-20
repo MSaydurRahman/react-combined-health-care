@@ -3,12 +3,7 @@ background-color:black;
 margin-bottom: 20px;
 text-align: center;
 padding-bottom: 20px;
-}
-.title{
-    font-weight:100;
-    font-size:50px;
-    color: orange;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 20px;
 }
 .nav{
     display: flex;

@@ -1,4 +1,5 @@
 .details{
-   
+   border-radius: 2px solid green;
+   border: 1px;
     height: 700px;
 }

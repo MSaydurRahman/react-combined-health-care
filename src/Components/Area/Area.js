@@ -12,7 +12,7 @@ const Area = (props) => {
                     <h5 className="card-title text-center text-danger">{name}</h5>
                     <p className="card-text">{description}</p>
                     <Link to={`/details/${id}`} className="text-center">
-                        <button className="btn btn-primary btn-lg">Details</button>
+                        <button className="btn btn-primary btn-lg fa fa-superpowers">Details</button>
                     </Link>
                 </div>
             </div>

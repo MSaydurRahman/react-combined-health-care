@@ -7,3 +7,6 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+.font-awsome a{
+    text-decoration: none;
+}

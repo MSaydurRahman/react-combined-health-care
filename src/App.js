@@ -10,6 +10,7 @@ import Notfound from './Components/Notfound/Notfound';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Register from './Components/Register/Register';
 import Services from './Components/registration/Services';
+import Title from './Components/Title/Title';
 import Treatment from './Components/Treatment/Treatment';
 import AuthProvider from './Context/AuthProvider';
 
@@ -18,6 +19,9 @@ function App() {
 
     <AuthProvider>
       <Router>
+        <hr />
+        <Title></Title>
+        <hr />
         <Navbar></Navbar>
         <Switch>
           <Route exact path="/">

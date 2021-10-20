@@ -5,8 +5,8 @@ import "./Navbar.css"
 const Navbar = () => {
     const { user, logOut } = useAuth();
     return (
-        <div className="nav-bar  col-md-12 col-sm-12 col-lg-12">
-            <h1 className="title">Combined Health Care</h1>
+        <div className="nav-bar sticky-top col-md-12 col-sm-12 col-lg-12">
+
             <div className="nav container">
                 <Link to="/home">Home</Link>
                 <Link to="/services">Conditions and Diseases</Link>
