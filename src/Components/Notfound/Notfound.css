@@ -1,0 +1,9 @@
+.not-found{
+    height: 600px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3c/IMG_logo_%282017%29.svg'); */
+}
+.not-found-text{
+    font-size: 100px;
+    color:rgb(139, 111, 49);
+    padding-top: 50px;
+}
