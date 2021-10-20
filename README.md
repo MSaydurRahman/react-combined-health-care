@@ -1,6 +1,6 @@
 # Combined health care
 
-This project was (react router, firebase auth) with [Create React App](https://combined-health-care.web.app).
+This project was (react router, firebase auth) with [Combined health Care](https://combined-health-care.web.app).
 
 ## Important points
 
